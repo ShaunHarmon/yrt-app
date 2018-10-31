@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.css';
+
+.table-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    height: 96vh;
+    top: 10px;
+    left: 10px;
+    background-color: darkgray; 
+    box-shadow: 5px 5px 2px #252525;
+}
+
+.map-container{
+    position: relative;
+    display: flex;
+    justify-content: center;   
+}
+
+img.map{
+    border: 2px solid #252525;
+    position: absolute;
+    top: 15%;
+    height:70%;
+    width:90%;
+}
+
+.key{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+}
+
+.key td, .key th {
+    border: none;
+}
+
+#rectangle-red{
+    width:20px;
+    height:20px;
+    background: red;
+}
+
+#rectangle-green{
+    width:20px;
+    height:20px;
+    background: green;
+}
+
+i{
+    padding-left: 10px;
+}
+
+table{
+    font-size: 1.7em;
+}
+
+h1{
+    font-size: 3em;
+}
